@@ -1,0 +1,44 @@
+.blog-submit{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 4px;
+    border: 0px none;
+    background-color: #4b7676;
+    margin: 10px 10px 10px 15px;
+    color: white;
+    box-shadow: 0px 0px 12px 1px rgb(92, 91, 91);
+}
+
+.blog-form{
+    width: 90%;
+    margin: 30px auto;
+    color: #5c6166;
+}
+.blog-form .blog-type ,.blog-title ,.blog-thumb ,.blog-context{
+    height: 3rem;
+}
+
+.blog-type select{
+    margin-left: 1rem;
+    width: 20.4rem;
+    height: 1.95rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #a4aaaf;
+    color: #5c6166;
+}
+.blog-type >select> option{
+    color: #a4aaaf;
+}
+.blog-title input{
+    margin-left: 3rem;
+    width: 20rem;
+    height: 1.95rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #a4aaaf;
+}
+
+.blog-context{
+    height: 460px;
+}

@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background: radial-gradient(circle,#f9f7f7,#868689,#292828);
+}
+form{
+    padding: 1rem;
+    line-height: 70px;
+}
+.login-form{
+    background-color: #e6e6e6;
+    width: 30rem;
+    height: 20rem;
+    margin: 9rem auto;
+    box-shadow: 0px 0px 25px 25px #9e9e9e;
+    border-radius: 14px;
+}
+.login-title{
+    background: #565859;
+    max-height: 3rem;
+    width: 30rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    min-height: 2.8rem;
+    font-size: 24px;
+    color: cornsilk;
+    border-radius: 10px 10px 0px 0px;
+}
+.form-label{
+    display: block;
+    letter-spacing: 10px;
+    color: #464441;
+    font-size: 18px;
+    padding-left: 35px;
+}
+.form-box{
+    border-style: none;
+    width: 16rem;
+    height: 25px;
+    border-radius: 5px;
+}
+.form-submit{
+    border-style: none;
+    height: 36px;
+    width: 14rem;
+    margin-left: 121px;
+    border-radius: 10px;
+    background-color: #7c7c7c;
+    letter-spacing: 8px;
+    font-size: 19px;
+    color: #f9f4cd;
+}
+.form-submit:hover{
+    box-shadow: 0 0 6px 6px #bebebe;
+    width: 17rem;
+    height: 40px;
+}
+.form-box:focus{
+    border-style:solid;
+    border-color: #0DB8DF;
+    box-shadow: 0 0 3px 2px #0D9599;
+}
